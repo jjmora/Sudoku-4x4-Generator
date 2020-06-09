@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+    .game, .solutions{
+        margin: auto;
+        margin-bottom: 30px;
+        /* background: red; */
+    }
+
+    .game, .game td{
+        padding: 20px 35px;
+        text-align: center;
+        font-size: 50px;
+        border: 1px solid;
+        border-collapse: collapse;
+    }
+        .game .fill, .solutions .fill{
+            padding: 1px;
+            background-color: black;
+        }
+    .solutions, .solutions td{
+        padding: 10px 15px;
+        text-align: center;
+        font-size: 20px;
+        border: 1px solid;
+        border-collapse: collapse;
+    }
+    .solutions{
+        display: none;
+    }
+    .hide{
+        display: flex;
+        border: none;
+        justify-content: center;
+    }
+    .button-section{
+        width: 50%;
+        margin: auto;
+        /* background: yellow; */
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+/* ----- BUTTONS ----- */
+.button-class {
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	background-color:#3d94f6;
+	border-radius:6px;
+	border:1px solid #337fed;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-shadow:0px 1px 0px #1570cd;
+}
+.button-class:hover {
+	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	background-color:#1e62d0;
+}
+.button-class:active {
+	position:relative;
+	top:1px;
+}
+/* ----- END BUTTONS ----- */

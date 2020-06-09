@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="sudoku.js"></script>
+        <script src="buttons.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <style>
+            
+        </style>
+    </head>
+    <html>
+        <main class="container">
+            <!-- PUZZLE GAME - SUDOKU 4X4 -->
+            <table class="game">
+                <tr>
+                    <td id="a">a</td>
+                    <td id="b">b</td>
+
+                    <td class="fill"></td>
+
+                    <td id="1C">1C</td>
+                    <td id="1D">1D</td>
+                </tr>
+                <tr>
+                    <td id="c">b</td>
+                    <td id="d">c</td>
+                    
+                    <td class="fill"></td>
+
+                    <td id="2C">2C</td>
+                    <td id="2D">2D</td>
+                </tr>
+                <tr>
+                    <td  class="fill"></td>
+                    <td  class="fill"></td>
+                    <td  class="fill"></td>
+                    <td  class="fill"></td>
+                    <td  class="fill"></td>
+                </tr>
+                <tr>
+                    <td id="3A">3A</td>
+                    <td id="3B">3B</td>
+
+                    <td class="fill"></td>
+
+                    <td id="3C">3C</td>
+                    <td id="3D">3D</td>
+                </tr>
+                <tr>
+                    <td id="4A">4A</td>
+                    <td id="4B">4B</td>
+
+                    <td class="fill"></td>
+
+                    <td id="4C">4C</td>
+                    <td id="4D">4D</td>
+                </tr>
+            </table>
+            <!-- END PUZZLE GAME - SUDOKU 4X4 -->
+
+            <!-- BUTTONS -->
+            <section class="button-section">
+                <button onclick="refresh()" class="button-class">New Game</button>
+                <button onclick="showSolutions()" class="button-class" id="sol">Show Solution</button>    
+            </section>
+            <!-- END BUTTONS -->
+
+
+
+            <!-- PUZZLE GAME - SUDOKU 4X4 - SOLUTIONS -->
+            <table class="solutions" id="solutions">
+                <tr>
+                    <td id="a_sol">a</td>
+                    <td id="b_sol">b</td>
+
+                    <td class="fill"></td>
+
+                    <td id="1C_sol">1C</td>
+                    <td id="1D_sol">1D</td>
+                </tr>
+                <tr>
+                    <td id="c_sol">b</td>
+                    <td id="d_sol">c</td>
+                    
+                    <td class="fill"></td>
+
+                    <td id="2C_sol">2C</td>
+                    <td id="2D_sol">2D</td>
+                </tr>
+                <tr>
+                    <td  class="fill"></td>
+                    <td  class="fill"></td>
+                    <td  class="fill"></td>
+                    <td  class="fill"></td>
+                    <td  class="fill"></td>
+                </tr>
+                <tr>
+                    <td id="3A_sol">3A</td>
+                    <td id="3B_sol">3B</td>
+
+                    <td class="fill"></td>
+
+                    <td id="3C_sol">3C</td>
+                    <td id="3D_sol">3D</td>
+                </tr>
+                <tr>
+                    <td id="4A_sol">4A</td>
+                    <td id="4B_sol">4B</td>
+
+                    <td class="fill"></td>
+
+                    <td id="4C_sol">4C</td>
+                    <td id="4D_sol">4D</td>
+                </tr>
+            </table>
+            <!-- END PUZZLE GAME - SUDOKU 4X4 - SOLUTIONS -->
+
+        </main>
+    </html>
+</html>
