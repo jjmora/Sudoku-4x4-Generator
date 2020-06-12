@@ -54,6 +54,7 @@ h2{
         margin: auto;
         /* background: yellow; */
         display: flex;
+        flex-direction: row;
         justify-content: space-evenly;
     }
 
@@ -84,13 +85,47 @@ h2{
 /* ----- END BUTTONS ----- */
 
 /* ----- RESPONSIVE ----- */
-@media only screen and (max-width: 500px) {
+@media all and (max-width: 490px) {
     .container{
-        width: 90%;
+        width: 80vw;
         margin: auto;
         margin-top: 20px;
     }
-    .game{
-        width: 90%;
+    .game, .game td{
+        padding: 20px 25px;
+        text-align: center;
+        font-size: 30px;
+        border: 1px solid;
+        border-collapse: collapse;
+    }
+    h1{
+        margin-top: 50px;
+    }
+    .button-section{
+        width: 200px;
+        height: 100px;
+        margin: auto;
+        /* background: yellow; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+  }
+
+  @media all and (max-width: 390px) {
+    .container{
+        width: 80vw;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .game, .game td{
+        padding: 15px 20px;
+        text-align: center;
+        font-size: 25px;
+        border: 1px solid;
+        border-collapse: collapse;
+    }
+    h1{
+        margin-top: 50px;
     }
   }
